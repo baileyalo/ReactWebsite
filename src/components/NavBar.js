@@ -5,6 +5,7 @@ import logoMobile from '../logoMobile.svg'
 import {Toolbar, Typography} from '@material-ui/core'
 import {makeStyles} from "@material-ui/core/styles"; 
 
+
 const styles = makeStyles({
     bar:{
         paddingTop: "1.15rem",
@@ -44,21 +45,21 @@ function NavBar() {
                 <img src={logo} className={classes.logo}/> 
                 <img src={logoMobile} className={classes.logoMobile}/> 
                 <Typography variant="h6" className={classes.menuItem}>
-                   About
+                   England 
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Blog
+                    Spain
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Careers
+                    Italy
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Demos 
+                    Germany 
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Contact Us 
+                    France 
                 </Typography>
-                <CustomBtn txt="Trial Our Product"/>
+                <CustomBtn txt="Home"/>
             </Toolbar>
     )
 }

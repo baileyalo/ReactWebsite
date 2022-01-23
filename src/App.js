@@ -23,7 +23,7 @@ const theme = createMuiTheme({
   },
   typography: {
     fontFamily: [
-      'Roboto'
+      'script'
     ],
     h4: {
       fontWeight: 600,
@@ -47,7 +47,7 @@ const styles = makeStyles({
     marginTop: "5rem"
   },
   littleSpace:{
-    marginTop: "2.5rem",
+    marginTop: "3.5rem",
   },
   grid:{
     display: "flex", 
@@ -66,11 +66,12 @@ function App() {
         <NavBar/>
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
-             At Rocket.io we are passionate about software
+             Daily Football News Across Top 5 Leagues In Europe
           </Typography>
           <Typography variant="h5" className={classes.littleSpace} color="primary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales congue tristique. Cras non pretium sem. Duis interdum lorem sit amet ligula pretium, sed rutrum urna semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus egestas gravida ullamcorper.
+           Tottenham's latest loss vs. Chelsea shows how much help Conte needs to fix things.
           </Typography>
+         
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
           <Grid icon={<SecurityIcon style={{fill: "#4360A6", height:"125", width:"125"}}/>}  title="Secure" btnTitle="Show me More" />
